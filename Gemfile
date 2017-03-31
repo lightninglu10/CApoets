@@ -19,11 +19,11 @@ group :production do
   gem 'pg'
   gem 'rails_12factor' #Heroku-specific production settings
   gem 'therubyracer'
+  gem 'sqlite3'
 end
 
 gem 'haml-rails', '>= 0.3.4'
 gem 'rails', '4.2.5'
-gem 'sqlite3'
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
