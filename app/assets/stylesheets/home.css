@@ -52,8 +52,7 @@ h1.title {
 
 #poems_container{
   margin-top: 80px;
-  height: 900px;
-  width: 900px;
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-flex;
@@ -89,7 +88,9 @@ h1.title {
 }
 
 .poems_box {
+  cursor: pointer;
   position: relative;
+  padding: 10px;
   justify-content: space-between;
   height: 260px;
   width: 260px;
